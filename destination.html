@@ -323,93 +323,123 @@
               <!-- Basic Layout -->
               <div class="row">
                 <div class="col-xl">
-                  <div class="card mb-4 overflow-hidden" style="height: 600px">
-                    <div class="card-header d-flex justify-content-between align-items-center">
-                      <h5 class="mb-0">Your Destinations</h5>
-                    </div>
-                    <div class="card-body" id="vertical-example">
-                      <div class="col-md">
-                        <div class="card mb-3">
-                          <div class="row g-0">
-                            <div class="col-md-4">
-                              <img class="card-img card-img-left" src="assets/img/elements/12.jpg" alt="Card image">
-                            </div>
-                            <div class="col-md-8">
-                              <div class="card-body">
-                                <h5 class="card-title">Destination Name</h5>
-                                <p class="card-text">State</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card mb-3">
-                          <div class="row g-0">
-                            <div class="col-md-4">
-                              <img class="card-img card-img-left" src="assets/img/elements/12.jpg" alt="Card image">
-                            </div>
-                            <div class="col-md-8">
-                              <div class="card-body">
-                                <h5 class="card-title">Destination Name</h5>
-                                <p class="card-text">State</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="card mb-3">
-                          <div class="row g-0">
-                            <div class="col-md-4">
-                              <img class="card-img card-img-left" src="assets/img/elements/12.jpg" alt="Card image">
-                            </div>
-                            <div class="col-md-8">
-                              <div class="card-body">
-                                <h5 class="card-title">Destination Name</h5>
-                                <p class="card-text">State</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl">
                   <div class="card mb-4">
                     <div class="card-header d-flex justify-content-between align-items-center">
                       <h5 class="mb-0">Add Destinations</h5>
                     </div>
                     <div class="card-body">
                       <form>
-                        <div class="mb-3">
-                          <label for="exampleFormControlReadOnlyInput1" class="form-label">Country</label>
-                          <input class="form-control" type="text" id="exampleFormControlReadOnlyInput1" placeholder="India" readonly />
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleFormControlSelect1" class="form-label">State</label>
-                          <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
-                            <option selected>Select State</option>
-                            <option value="1">Kerala</option>
-                            <option value="2">Karnataka</option>
-                            <option value="3">Tamil Nadu</option>
-                          </select>
-                        </div>
-                        <div class="mb-3">
-                          <label for="exampleDataList" class="form-label">Destinations</label>
-                          <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..." />
-                          <datalist id="datalistOptions">
-                            <option value="Vagamon"></option>
-                            <option value="Thekkadi"></option>
-                            <option value="Idukki"></option>
-                          </datalist>
-                        </div>
-                        <div class="mb-3">
-                          <label for="formFile" class="form-label">Destination Image</label>
-                          <input class="form-control" type="file" id="formFile">
+                        <div class="row">
+                          <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                              <label for="exampleFormControlReadOnlyInput1" class="form-label">Country</label>
+                              <input class="form-control" type="text" id="exampleFormControlReadOnlyInput1" placeholder="India" readonly />
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleDataList" class="form-label">Destinations</label>
+                              <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search..." />
+                              <datalist id="datalistOptions">
+                                <option value="Vagamon"></option>
+                                <option value="Thekkadi"></option>
+                                <option value="Idukki"></option>
+                              </datalist>
+                            </div>
+                          </div>
+                          <div class="col-12 col-md-6">
+                            <div class="mb-3">
+                              <label for="exampleFormControlSelect1" class="form-label">State</label>
+                              <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                                <option selected>Select State</option>
+                                <option value="1">Kerala</option>
+                                <option value="2">Karnataka</option>
+                                <option value="3">Tamil Nadu</option>
+                              </select>
+                            </div>
+                            <div class="mb-3">
+                              <label for="formFile" class="form-label">Destination Image</label>
+                              <input class="form-control" type="file" id="formFile">
+                            </div>
+                          </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Add</button>
                       </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex justify-content-between align-items-center">
+                      <h5 class="mb-0">Your Destinations</h5>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img class="card-img card-img-left" src="assets/img/elements/12.jpg" alt="Card image">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Destination Name</h5>
+                                  <p class="card-text">State</p>
+                                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img class="card-img card-img-left" style="height: -webkit-fill-available; object-fit: cover;" src="https://eastindiantraveller.files.wordpress.com/2021/01/kovalambeach.jpg" alt="Card image">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Kovalam</h5>
+                                  <p class="card-text">Kerala, India</p>
+                                  <p class="card-text"><small class="text-muted">Updated 3 months ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img class="card-img card-img-left" style="height: -webkit-fill-available; object-fit: cover;" src="https://www.keralatourism.org/images/destination/large/alappuzha20160801052013_60_1.jpg" alt="Card image">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Alappuzha</h5>
+                                  <p class="card-text">Kerala, India</p>
+                                  <p class="card-text"><small class="text-muted">Updated 3 months ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="card mb-3">
+                            <div class="row g-0">
+                              <div class="col-md-4">
+                                <img class="card-img card-img-left" style="height: -webkit-fill-available; object-fit: cover;" src="https://i.pinimg.com/originals/c6/37/24/c637242c8ac39178ba22a331918cb822.jpg" alt="Card image">
+                              </div>
+                              <div class="col-md-8">
+                                <div class="card-body">
+                                  <h5 class="card-title">Wayanad</h5>
+                                  <p class="card-text">Kerala, India</p>
+                                  <p class="card-text"><small class="text-muted">Updated 3 months ago</small></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -489,7 +519,6 @@
 
     <!-- Page JS -->
     <script src="assets/js/dashboards-analytics.js"></script>
-    <script src="assets/js/extended-ui-perfect-scrollbar.js"></script>
 
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
